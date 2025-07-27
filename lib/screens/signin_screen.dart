@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import '../widgets/backwordbutton-loginpage.dart';
 import '../widgets/SocialLoginButton.dart';
 import '/utils/colors.dart';
-import 'ATEC_screen.dart';
+import 'Test/ATEC_screen.dart';
 
 class SignInScreen extends StatelessWidget {
   const SignInScreen({super.key});

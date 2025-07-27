@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 // แก้ไขพาธให้ตรงกับโปรเจกต์คุณ
 import '/widgets/backwordbutton-loginpage.dart';
-import '/screens/test1.dart';
-import 'signin_screen.dart';
+import 'test1.dart';
+import '/screens/signin_screen.dart';
 
 void main() {
   runApp(const ATECApp());

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'test3.dart';
-import 'start_screen.dart';
-import 'profile_screen.dart';
+import '/screens/start_screen.dart';
+import '/screens/profile_screen.dart';
 
 class Test4Screen extends StatefulWidget {
   final int? score1;
