@@ -44,7 +44,7 @@ class LoginScreen extends StatelessWidget {
 
                   // Subtitle
                   Text(
-                    'ยินดีต้อนรับกลับ เราคือแอปพลิเคชันเพื่อส่งเสริมพัฒนาการของเด็กออทิสติก\n',
+                    'ยินดีต้อนรับกลับ เราคือแอปพลิเคชันเพื่อการส่งเสริมและติดตามพัฒนาการของเด็กออทิสติก\n',
                     style: GoogleFonts.barlowSemiCondensed(
                       fontSize: 16,
                       fontWeight: FontWeight.w500,
