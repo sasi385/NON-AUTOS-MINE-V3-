@@ -258,17 +258,6 @@ class _Test1ScreenState extends State<Test1Screen> {
               bottom: 51,
               child: GestureDetector(
                 onTap: () {
-                  // ตรวจสอบว่ามีคำตอบว่างหรือไม่
-                  if (_answers.contains(null)) {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(
-                        content: Text('กรุณาตอบคำถามให้ครบทุกข้อ'),
-                        duration: Duration(seconds: 2),
-                      ),
-                    );
-                    return; // หยุดการทำงานถ้ามีคำตอบว่าง
-                  }
-
                   // คำนวณคะแนนตามเกณฑ์
                   int test1_score = 0;
                   for (var answer in _answers) {

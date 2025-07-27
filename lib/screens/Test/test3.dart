@@ -273,15 +273,6 @@ class _Test3ScreenState extends State<Test3Screen> {
               child: GestureDetector(
                 onTap: () {
                   // ป้องกันการส่งคำตอบว่าง
-                  if (_answers.contains(null)) {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(
-                        content: Text('กรุณาตอบคำถามให้ครบทุกข้อ'),
-                        duration: Duration(seconds: 2),
-                      ),
-                    );
-                    return;
-                  }
 
                   // คำนวณคะแนนตามเงื่อนไข
                   int test3_score = 0;
