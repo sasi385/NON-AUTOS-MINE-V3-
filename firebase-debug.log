@@ -1,0 +1,24 @@
+[debug] [2025-07-12T18:40:40.716Z] ----------------------------------------------------------------------
+[debug] [2025-07-12T18:40:40.720Z] Command:       D:\app\node.exe C:\Users\DELL-LPT\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js apps:create ios non_autos_mine (ios) --bundle-id=com.example.non_autos_mine --json --project=non-autos-mine-fb85b
+[debug] [2025-07-12T18:40:40.720Z] CLI Version:   14.9.0
+[debug] [2025-07-12T18:40:40.720Z] Platform:      win32
+[debug] [2025-07-12T18:40:40.720Z] Node Version:  v22.17.0
+[debug] [2025-07-12T18:40:40.721Z] Time:          Sun Jul 13 2025 01:40:40 GMT+0700 (Indochina Time)
+[debug] [2025-07-12T18:40:40.721Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-12T18:40:40.970Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-12T18:40:40.971Z] > authorizing via signed-in user (innotechx101@gmail.com)
+[info] Create your IOS app in project non-autos-mine-fb85b:
+[debug] [2025-07-12T18:40:40.977Z] Checked if tokens are valid: true, expires at: 1752348682443
+[debug] [2025-07-12T18:40:40.977Z] Checked if tokens are valid: true, expires at: 1752348682443
+[debug] [2025-07-12T18:40:40.979Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/non-autos-mine-fb85b/iosApps [none]
+[debug] [2025-07-12T18:40:40.979Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/non-autos-mine-fb85b/iosApps {"displayName":"non_autos_mine (ios)","bundleId":"com.example.non_autos_mine"}
+[debug] [2025-07-12T18:40:41.623Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/non-autos-mine-fb85b/iosApps 400
+[debug] [2025-07-12T18:40:41.623Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/non-autos-mine-fb85b/iosApps {"error":{"code":400,"message":"Request contains an invalid argument.","status":"INVALID_ARGUMENT"}}
+[debug] [2025-07-12T18:40:41.624Z] Request to https://firebase.googleapis.com/v1beta1/projects/non-autos-mine-fb85b/iosApps had HTTP Error: 400, Request contains an invalid argument.
+[debug] [2025-07-12T18:40:41.738Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/non-autos-mine-fb85b/iosApps had HTTP Error: 400, Request contains an invalid argument.
+    at responseToError (C:\Users\DELL-LPT\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\DELL-LPT\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create iOS app for project non-autos-mine-fb85b. See firebase-debug.log for more info.
